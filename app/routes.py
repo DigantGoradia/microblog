@@ -134,4 +134,4 @@ def unfollow(username):
         flash(f'You are not following {username}.')
         return redirect(url_for('user', username=username))
     else:
-        return redirect(url_for('index')
+        return redirect(url_for('index'))
